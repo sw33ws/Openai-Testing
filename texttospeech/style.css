@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text-to-speech {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#speak-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
